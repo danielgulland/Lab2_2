@@ -8,7 +8,7 @@ namespace Lab2_2
         {
             Console.WriteLine("Which health plan would you like to choose?");
             var choice = Console.ReadLine();
-            var plan = HealthPlanFactory.selectHealthPlan(choice);
+            var plan = HealthPlanFactory.SelectHealthPlan(choice);
             if(plan == null)
             {
                 Console.WriteLine("No such health plan exists.");

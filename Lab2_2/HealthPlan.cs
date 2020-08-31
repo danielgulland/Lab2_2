@@ -6,14 +6,14 @@ namespace Lab2_2
 {
     abstract class HealthPlan
     {
-        public abstract string planType { get; }
-        public abstract int annualCharge { get;}
-        public abstract int deductionAmount { get;}
+        public abstract string PlanType { get; }
+        public abstract int AnnualCharge { get;}
+        public abstract int DeductionAmount { get;}
 
         public override String ToString()
         {
-            return "\nPlan Type - " + this.planType + "\nAnnual Charge - " + this.annualCharge
-                + "\nDeduction Amount - " + this.deductionAmount;
+            return "\nPlan Type - " + this.PlanType + "\nAnnual Charge - " + this.AnnualCharge
+                + "\nDeduction Amount - " + this.DeductionAmount;
         }
 
     }

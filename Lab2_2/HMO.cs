@@ -6,9 +6,9 @@ namespace Lab2_2
 {
     class HMO : HealthPlan
     {
-        public override string planType { get { return "HMO"; } }
-        public override int annualCharge { get { return 10000; } }
-        public override int deductionAmount { get { return 3000; } }
+        public override string PlanType { get { return "HMO"; } }
+        public override int AnnualCharge { get { return 10000; } }
+        public override int DeductionAmount { get { return 3000; } }
 
     }
 }

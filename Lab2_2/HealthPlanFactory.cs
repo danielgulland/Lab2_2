@@ -8,9 +8,9 @@ namespace Lab2_2
 {
     class HealthPlanFactory
     {
-        public static HealthPlan selectHealthPlan(String healthPlan)
+        public static HealthPlan SelectHealthPlan(String healthPlan)
         {
-            switch(healthPlan)
+            switch (healthPlan)
             {
                 case "HMO":
                     return new HMO();
@@ -18,6 +18,8 @@ namespace Lab2_2
                     return new PPO();
                 case "ObamaCare":
                     return new ObamaCare();
+                default:
+                    break;
             }
             return null;
         }
